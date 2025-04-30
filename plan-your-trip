@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Plan Your Trip</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #1a1a2e;
+            color: white;
+            padding: 1rem 0;
+        }
+        main {
+            padding: 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        section h2 {
+            color: #1a1a2e;
+            font-size: 2rem;
+        }
+        section p {
+            line-height: 1.6;
+            margin: 0.5rem 0;
+        }
+        .back-link {
+            display: block;
+            margin-top: 1rem;
+            text-align: center;
+            font-size: 1.2rem;
+            color: #1a1a2e;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Plan Your Trip to London</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Best Time to Visit</h2>
+            <p>Spring (March to May) and autumn (September to November) are ideal, with mild weather and fewer crowds.</p>
+        </section>
+        <section>
+            <h2>Transportation</h2>
+            <p>Use the Underground (Tube), buses, or rent a bike with Santander Cycles for easy navigation around the city.</p>
+        </section>
+        <section>
+            <h2>Accommodation</h2>
+            <p>From luxury hotels in the West End to budget hostels in Camden, London offers options for every traveler.</p>
+        </section>
+        <section>
+            <h2>Local Tips</h2>
+            <p>Purchase an Oyster card for cheaper travel, try free museums, and avoid peak hours on public transport.</p>
+        </section>
+        <a class="back-link" href="index.html">Back to Home</a>
+    </main>
+</body>
+</html>
 
