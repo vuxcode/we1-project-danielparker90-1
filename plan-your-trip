@@ -22,6 +22,18 @@
         section {
             margin-bottom: 2rem;
         }
+        .card {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .card-img {
+            border: 3px solid black;
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
         section h2 {
             color: #1a1a2e;
             font-size: 2rem;
@@ -50,6 +62,9 @@
     <header>
         <h1>Plan Your Trip to London</h1>
     </header>
+<div class="card">
+        <img src="london-underground.png" alt="Underground" class="card-img">
+    </div>
     <main>
         <section>
             <h2>Best Time to Visit</h2>
