@@ -26,9 +26,11 @@
             color: #1a1a2e;
             font-size: 2rem;
         }
-        section p {
-            line-height: 1.6;
-            margin: 0.5rem 0;
+       ul {
+            padding-left: 20px;
+            text-align: left;
+            display: inline-block;
+        }
         }
         .back-link {
             display: block;
@@ -51,19 +53,34 @@
     <main>
         <section>
             <h2>Best Time to Visit</h2>
-            <p>Spring (March to May) and autumn (September to November) are ideal, with mild weather and fewer crowds.</p>
+       <ul>
+                <li>Spring (March to May) offers blooming parks and mild weather.</li>
+                <li>Autumn (September to November) has fewer crowds and pleasant temperatures.</li>
+            </ul>
         </section>
         <section>
             <h2>Transportation</h2>
-            <p>Use the Underground (Tube), buses, or rent a bike with Santander Cycles for easy navigation around the city.</p>
+            <ul>
+                <li>Use the Underground (Tube) for fast travel across the city.</li>
+                <li>London buses are convenient and scenic.</li>
+                <li>Rent bikes using Santander Cycles for short trips.</li>
+            </ul>
         </section>
         <section>
             <h2>Accommodation</h2>
-            <p>From luxury hotels in the West End to budget hostels in Camden, London offers options for every traveler.</p>
+             <ul>
+                <li>Luxury hotels are available in the West End and Kensington.</li>
+                <li>Budget options like hostels and guesthouses are in areas like Camden or Shoreditch.</li>
+                <li>Book early during peak seasons.</li>
+            </ul>
         </section>
         <section>
             <h2>Local Tips</h2>
-            <p>Purchase an Oyster card for cheaper travel, try free museums, and avoid peak hours on public transport.</p>
+           ul>
+                <li>Get an Oyster card or contactless payment for cheaper travel.</li>
+                <li>Many top museums are free to enter.</li>
+                <li>Avoid peak hours (7-9 AM and 5-7 PM) when using public transport.</li>
+            </ul>
         </section>
         <a class="back-link" href="index.html">Back to Home</a>
     </main>
