@@ -5,3 +5,5 @@
 1. Problem: Images not showing need to change them from a local file. Problem ongoing.
 2. Problem: "plan-your-trip" page did not work. Solved by adding .html
 3. Problem: When I click a link the hyperlinks do not show when they have been visited. Problem ongoing
+4. Problem: Fix the layout box as there is too much space. Problem ongoing
+5. Problem: Line length on the index page to make it easier to read. Problem ongoing
