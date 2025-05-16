@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Explore London</title>
-     <style>
+    <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -10,7 +10,7 @@
             background-color: #f4f4f9;
             color: #333;
         }
-         header {
+        header {
             background-color: #1a1a2e;
             color: white;
             padding: 1rem 0;
@@ -26,18 +26,25 @@
         }
         main {
             padding: 2rem;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        .content {
+            max-width: 600px;
+            width: 100%;
+            text-align: left;
         }
         section {
             margin-bottom: 2rem;
         }
         section h2 {
             color: #1a1a2e;
-            font-size: 2rem;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
         }
         section p {
-            line-height: 1.6;
-            margin: 0.5rem 0;
+            line-height: 1.8;
+            margin: 0;
         }
         .card {
             text-align: center;
@@ -49,7 +56,7 @@
             border-radius: 50%; 
             border: 5px solid #1a1a2e; 
         }
-         a {
+        a {
             color: #1a1a2e;
             text-decoration: none;
             font-weight: bold;
@@ -65,7 +72,7 @@
             color: #990000;
         }
     </style>
-    </head>
+</head>
 <body>
     <header>
         <h1>Welcome to Explore London</h1>
@@ -77,23 +84,40 @@
     </div>
 
     <main>
-        <section>
-            <h2><a href="about-london.html">About London</a></h2>
-            <p>London, the capital city of the United Kingdom, is a vibrant hub of culture, history, and innovation. From its iconic landmarks like Big Ben and Tower Bridge to its charming neighborhoods, London offers an experience like no other.</p>
-        </section>
-        <section>
-            <h2><a href="top-attractions.html">Top Attractions</a></h2>
-            <p>Discover the must-see sights that make London special. Visit Buckingham Palace, witness the majesty of St. Paul's Cathedral, or take a ride on the London Eye for breathtaking views of the city.</p>
-        </section>
-        <section>
-            <h2><a href="plan-your-trip.html">Plan Your Trip</a></h2>
-            <p>Whether you're a first-time visitor or a seasoned traveler, our site provides you with tips, guides, and recommendations to make your London adventure unforgettable. Explore the best times to visit, local eateries, and hidden gems waiting to be discovered.</p>
-        </section>
-        <section>
-            <h2><a href="contact.html">Contact Me</a></h2>
-            <p>Have questions or want to plan your perfect London trip? Use our contact form to get in touch!</p>
-        </section>
+        <div class="content">
+            <section>
+                <h2><a href="about-london.html">About London</a></h2>
+                <p>
+                    London, the capital city of the United Kingdom, is a vibrant hub of culture,
+                    history, and innovation. From its iconic landmarks like Big Ben and Tower Bridge
+                    to its charming neighborhoods, London offers an experience like no other.
+                </p>
+            </section>
+            <section>
+                <h2><a href="top-attractions.html">Top Attractions</a></h2>
+                <p>
+                    Discover the must-see sights that make London special. Visit Buckingham Palace,
+                    witness the majesty of St. Paul's Cathedral, or take a ride on the London Eye
+                    for breathtaking views of the city.
+                </p>
+            </section>
+            <section>
+                <h2><a href="plan-your-trip.html">Plan Your Trip</a></h2>
+                <p>
+                    Whether you're a first-time visitor or a seasoned traveler, our site provides
+                    you with tips, guides, and recommendations to make your London adventure
+                    unforgettable. Explore the best times to visit, local eateries, and hidden gems
+                    waiting to be discovered.
+                </p>
+            </section>
+            <section>
+                <h2><a href="contact.html">Contact Me</a></h2>
+                <p>
+                    Have questions or want to plan your perfect London trip? Use our contact form to
+                    get in touch!
+                </p>
+            </section>
+        </div>
     </main>
 </body>
 </html>
-    
