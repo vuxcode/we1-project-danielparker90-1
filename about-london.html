@@ -10,6 +10,36 @@
             background-color: #f4f4f9;
             color: #333;
             text-align: center;
+            .container {
+            display: block;
+        }
+        .side-menu {
+            width: 200px;
+            background-color: #1a1a2e;
+            min-height: 100vh;
+            padding-top: 2rem;
+            position: fixed;
+            left: 0;
+            top: 0;
+            overflow-y: auto;
+        }
+        .side-menu ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .side-menu ul li {
+            margin: 1rem 0;
+        }
+        .side-menu ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            display: block;
+        }
+        .side-menu ul li a:hover {
+            background-color: #333;
+        }
         }
         header {
             background-color: #1a1a2e;
@@ -66,6 +96,16 @@
     </style>
 </head>
 <body>
+     <div class="container">
+        <nav class="side-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-london.html">About London</a></li>
+                <li><a href="plan-your-trip.html">Plan Your Trip</a></li>
+                <li><a href="top-attractions.html">Top Attractions</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
     <header>
         <h1>About London</h1>
     </header>
