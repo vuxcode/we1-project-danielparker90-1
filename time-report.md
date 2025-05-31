@@ -25,3 +25,9 @@ Plan your trip: side menu added
 Top attractions: side menu added
 Total time spent 4hrs 
 Week 21 May 19th. missed a closing tag for iframe. Time spent 1 min 
+Week 22. 29th-31st May. Index page now validated by Adding <meta charset="UTF-8"> to <head>
+Changed width="100" to width="100%"
+Confirmed proper closing of the <iframe> element
+Adjusted the map container to ensure it appears square and centered. 
+About London, plan your trip, top attractions and contact page now validated by adding closing tags that were missing, <meta charset="UTF-8"> to <head> in each page. Time spent in total on this 4hrs
+
